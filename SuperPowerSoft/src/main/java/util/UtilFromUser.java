@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public interface UtilFromUser {
-    default int getUserWorkTogither(ArrayList<User> userArrayList) {
+    default int getUserWorkTogether(ArrayList<User> userArrayList) {
         int i = 0;
         int maxTogether = 0;
         for (User startUser : userArrayList) {
